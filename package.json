@@ -1,0 +1,29 @@
+{
+  "name": "freeletics-tests",
+  "version": "1.0.0",
+  "description": "A suite of Protractor tests for the Freeletics website",
+  "main": "conf.js",
+  "scripts": {
+    "pretest": "npm run update-webdriver",
+    "test": "protractor conf.js",
+
+    "preupdate-webdriver": "npm install",
+    "update-webdriver": "webdriver-manager update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mullans/Protractor-Tests-Freeletics.git"
+  },
+  "keywords": [
+    "protractor",
+    "javascript",
+    "freeletics",
+    "tests"
+  ],
+  "author": "Sean Mullan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mullans/Protractor-Tests-Freeletics/issues"
+  },
+  "homepage": "https://github.com/Mullans/Protractor-Tests-Freeletics#readme"
+}
