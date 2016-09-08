@@ -2,7 +2,7 @@ describe('Home Page', function(){
 
 
     //global variables
-    var firstLoginButton = element.all(by.css('a[href="/en/login"]')).first();
+    var firstLoginButton = element.all(by.link('/en/login')).first();
 
 
     //Before function
