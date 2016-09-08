@@ -14,6 +14,8 @@ A suite of Protractor tests written for the Freeletics website
 
 1. Title should be "Intensive workouts & individual training plans | FREELETICS"
 
+2. The top-most login button should navigate to the login page.
+
 ##Custom Matchers
 All custom matchers are stored in `custom matchers.js` and loaded to `global.customMatchers` in `config.js`
 
