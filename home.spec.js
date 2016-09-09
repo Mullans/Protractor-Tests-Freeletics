@@ -7,7 +7,6 @@ describe('Home Page', function(){
 
     //Before function
     beforeEach(function(){
-        jasmine.addMatchers(customMatchers);
         isAngularSite(true);
         browser.get(browser.baseUrl);
     });
