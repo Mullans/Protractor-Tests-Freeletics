@@ -18,6 +18,10 @@ A suite of Protractor tests written for the Freeletics website
 
 3. The main page should only have 2 displayed logos
 
+### Shop Page - Reflective Mesh Sleeveless
+
+1. Clicking on each description header should set them to 'is-active'
+
 ## Custom Matchers
 All custom matchers are stored in `custom matchers.js` and loaded to `global.customMatchers` in the `onPrepare` section of `config.js`
 
